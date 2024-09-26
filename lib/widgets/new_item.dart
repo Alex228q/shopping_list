@@ -66,6 +66,7 @@ class _NewItemState extends State<NewItem> {
           child: Column(
             children: [
               TextFormField(
+                textCapitalization: TextCapitalization.sentences,
                 maxLength: 50,
                 decoration: const InputDecoration(
                   label: Text('Name'),
